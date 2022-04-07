@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not-Found</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        body,html{
+            width: 100%;
+            height: 100%;
+        }
+        .max-width{
+            max-width: 1300px;
+            height: 100%;
+            margin: auto;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .left{
+            width: calc(50% - 0px);
+        }
+        .left img{
+            width:100%;
+            height: 100%;
+            align-items: center;
+        }
+        .right{
+            width: calc(50% - 0px);
+            padding: 0 20px;
+        }
+        .right h1{
+            font-size: 50px;
+            font-weight: 800;
+            padding-bottom:30px ;
+        }
+        .right p{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;
+            color: rgb(114, 114, 114);
+        }
+        .right .link{
+            margin-top: 30px;
+        }
+        .right a{
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin-top: 30px;
+            border: 2px solid rgb(92, 92, 255);
+            border-radius: 4px;
+            margin-right: 10px;
+            background: rgb(92, 92, 255);
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        .right a:hover{
+            background: none;
+            color:rgb(92, 92, 255) ;
+        }
+        .right a:last-child{
+            color:rgb(92, 92, 255) ;
+            background: none;
+            transition: all 0.3s ease;
+        }
+        .right a:last-child:hover{
+            background: rgb(92, 92, 255);
+            color: #fff;
+        }
+
+        /* responsive */
+
+            @media(max-width:880px) {
+                .right h1{
+                    font-size: 40px;
+                    font-weight: 600;
+                    padding-bottom:20px ;
+                    }
+                    .right p{
+            font-size: 17px;
+            line-height: auto;
+            }
+
+                .right a{
+                    width: 80px;
+                    height: 40px;
+                    font-size: 18px;
+                    padding: 8px 16px;
+                    margin-right: 8px;
+                }
+            }
+                @media (max-width:730px) {
+                    .right h1{
+                    font-size: 35px;
+                    padding-bottom:10px ;
+                    }
+                    .right p{
+                    font-size: 15px;
+                    
+                    line-height: 25px;
+
+                    }
+                    .right .link{
+            margin-top: 25px;
+        }
+                    .right a{
+                    width: 60px;
+                    height: 30px;
+                    font-size: 16px;
+                    padding: 5px 10px;
+                    margin-right: 5px;
+                    margin-top: 20px;
+                }
+                }
+                @media (max-width:640px) {
+                    .right h1{
+                    font-size: 30px;
+                    }
+                    .right p{
+                    font-size: 14px;
+                    
+                    line-height: 20px;
+                    
+                    }
+                    .right .link{
+            margin-top: 20px;
+        }
+                    .right a{
+                    width: 40px;
+                    height: 20px;
+                    font-size: 14px;
+                    padding: 2px 5px;
+                    margin-right: 5px;
+                    margin-top: 10px;
+                }
+                }
+                @media (max-width:540px) {
+                    .right h1{
+                    font-size: 25px;
+                    }
+                    .right p{
+                    font-size: 12px;
+                    line-height: 15px;
+                    }
+                    .right .link{
+            margin-top: 15px;
+        }
+                    
+                .right a{
+                    width: 80px;
+                    height: 40px;
+                    font-size: 14px;
+                    padding: 3px 5px;
+                    margin-right: 3px;
+                    display: block;
+                    margin-top: 5px;
+                }
+                
+                }
+                @media (max-width:430px) {
+                    .right h1{
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding-bottom:5px ;
+                    }
+                    .right .link{
+            margin-top: 10px;
+        }
+                }
+
+    </style>
+</head>
+<body>
+    <div class="max-width">
+        <div class="container">
+            <div class="com left">
+                <img src="../images/404-Page-img.png">
+            </div>
+            <div class="com right">
+                <h1>Page Not Found</h1>
+                <p>we can't find the page you're looking for.</p>
+                <p>You can either return to the previous page, visit our homepage or contact our support team.</p>
+                <div class="link">
+                    <a href="../index.html">Visit Homepage</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
