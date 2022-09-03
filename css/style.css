@@ -373,19 +373,19 @@ section .title::after{
 }
 .skills .skills-content .right .css::before{
     
-    width: 80%;
+    width: 88%;
 }
 .skills .skills-content .right .js::before{
     
-    width: 85%;
+    width: 80%;
 }
 .skills .skills-content .right .bootstrap::before{
     
-    width: 75%;
+    width: 90%;
 }
 .skills .skills-content .right .php::before{
     
-    width: 50%;
+    width: 70%;
 }
 
 
