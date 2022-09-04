@@ -792,19 +792,19 @@ footer .wave#wave4{
 
 }
 .bar:nth-child(1) span{
-    width: 80%;
+    width: 90%;
 }
 .bar:nth-child(2) span{
-    width: 70%;
+    width: 88%;
 }
 .bar:nth-child(3) span{
-    width: 75%;
+    width: 80%;
 }
 .bar:nth-child(4) span{
-    width: 85%;
+    width: 90%;
 }
 .bar:nth-child(5) span{
-    width: 80%;
+    width: 70%;
 }
 .bar abbr{
     width: 50px;
