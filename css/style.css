@@ -822,19 +822,19 @@ footer .wave#wave4{
                 0 5px 30px rgb(255 255 59 / 50%) ;
 }
 .bar:nth-child(1) abbr{
-    left: 80%;
+    left: 90%;
 }
 .bar:nth-child(2) abbr{
-    left: 70%;
+    left: 88%;
 }
 .bar:nth-child(3) abbr{
-    left: 75%;
+    left: 80%;
 }
 .bar:nth-child(4) abbr{
-    left: 85%;
+    left: 90%;
 }
 .bar:nth-child(5) abbr{
-    left: 80%;
+    left: 70%;
 }
 
 
