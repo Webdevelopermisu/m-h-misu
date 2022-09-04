@@ -428,6 +428,7 @@ section .title::after{
 .projects .projects-content .p-card a{
     font-size: 18px;
     color:crimson ;
+	text-decoration: underline;
 }
 
 hr{
