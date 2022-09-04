@@ -844,4 +844,80 @@ footer .wave#wave4{
 
 
 
+.cookie-container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom:  -100%;
+    left: 0;
+    right: 0;
+    background: #111;
+    color: #f5f6fa;
+    padding: 0 10%;
+    padding-top: 20px;
+    box-shadow: 0 -2px 10px rgba(17, 17, 17, 0.585);
+    transition: all 1s;
+}
+.cookie-container .max-width{
+    max-width: 1400px;
+	padding: 0;
+    margin: 0;
+}
+
+
+div.active{
+    bottom:0;
+}
+
+.cookie-container p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cookie-container .cookie-link{
+    display: flex;
+    justify-content: space-between;
+}
+.cookie-container .cookie-link a{
+    color: #f5f6fa;
+}
+
+.cookie-container .cookie-link a:hover{
+    color: #dcdcdc;
+}
+.cookie-container .cookie-link .cookies-btn{
+    background:#fb0102 ;
+    border: 0;
+    color: #f5f6fa;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.h-i{
+    display: flex;
+    justify-content: space-between;
+}
+.cookie-container .fa-times{
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: -20px;
+}
+
+
+/* responsive */
+
+@media (max-width:868px) {
+    .cookie-container p{
+        margin-bottom: 10px;
+    }
+    .cookie-container{
+        padding-top: 15px;
+    }
+    .cookie-container .cookie-link .cookies-btn{
+        margin-bottom: 10px;
+        padding: 8px 30px;
+        
+    }
+}
 
