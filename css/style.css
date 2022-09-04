@@ -857,6 +857,7 @@ footer .wave#wave4{
     padding-top: 20px;
     box-shadow: 0 -2px 10px rgba(17, 17, 17, 0.585);
     transition: all 1s;
+    z-index: 999999;
 }
 .coo-max-width{
     max-width: 1400px;
