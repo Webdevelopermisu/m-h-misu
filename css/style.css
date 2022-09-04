@@ -428,6 +428,10 @@ section .title::after{
 .projects .projects-content .p-card a{
     font-size: 18px;
     color:crimson ;
+	transition: 0.5s ease;
+	
+}
+.projects .projects-content .p-card a:hover{
 	text-decoration: underline;
 }
 
